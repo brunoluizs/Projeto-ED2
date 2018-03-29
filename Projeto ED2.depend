@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1520015683 source:c:\users\07501920974\desktop\projeto ed2\src\struct.c
+
+1520015437 source:c:\users\07501920974\desktop\projeto ed2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"src/struct.c"
+
+1520015501 c:\users\07501920974\desktop\projeto ed2\src\struct.c
+
+1519998514 source:c:\users\alan\c code\projeto ed2\src\struct.c
+
+1521402004 source:c:\users\alan\c code\projeto ed2\main.c
+	<stdio.h>
+	"hdr/tree.h"
+
+1521404731 c:\users\alan\c code\projeto ed2\hdr\tree.h
+	"../src/struct.c"
+	<stdlib.h>
+
+1519998514 c:\users\alan\c code\projeto ed2\src\struct.c
+
