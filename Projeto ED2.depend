@@ -1,22 +1,73 @@
 # depslib dependency file v1.0
-1520015683 source:c:\users\07501920974\desktop\projeto ed2\src\struct.c
+1522246622 source:c:\users\07501920974\desktop\projeto ed2\src\struct.c
 
-1520015437 source:c:\users\07501920974\desktop\projeto ed2\main.c
-	<stdio.h>
-	<stdlib.h>
-	"src/struct.c"
-
-1520015501 c:\users\07501920974\desktop\projeto ed2\src\struct.c
-
-1519998514 source:c:\users\alan\c code\projeto ed2\src\struct.c
-
-1521402004 source:c:\users\alan\c code\projeto ed2\main.c
-	<stdio.h>
+1522089644 source:c:\users\07501920974\desktop\projeto ed2\main.c
 	"hdr/tree.h"
+	"hdr/visual.h"
+	<string.h>
 
-1521404731 c:\users\alan\c code\projeto ed2\hdr\tree.h
-	"../src/struct.c"
+1522246622 c:\users\07501920974\desktop\projeto ed2\src\struct.c
+
+1522247503 c:\users\07501920974\desktop\projeto ed2\hdr\tree.h
 	<stdlib.h>
+	"tools.h"
+	"visual.h"
 
-1519998514 c:\users\alan\c code\projeto ed2\src\struct.c
+1521046241 c:\users\07501920974\desktop\projeto ed2\src\tree.c
+	"../hdr/tree.h"
+
+1522247538 source:c:\users\07501920974\desktop\projeto ed2\src\tree.c
+	"../hdr/tree.h"
+
+1522243822 c:\users\07501920974\desktop\projeto ed2\hdr\tools.h
+	"../src/struct.c"
+
+1522247534 source:c:\users\07501920974\desktop\projeto ed2\src\tools.c
+	"../hdr/tools.h"
+
+1522089424 source:c:\users\07501920974\desktop\projeto ed2\src\visual.c
+	"../hdr/visual.h"
+
+1521552176 c:\users\07501920974\desktop\projeto ed2\hdr\struct.h
+
+1521553543 c:\users\07501920974\desktop\projeto ed2\hdr\visual.h
+	<stdio.h>
+	"tools.h"
+
+1522358952 source:c:\users\alan\c code\projeto ed2\main.c
+	"hdr/tree.h"
+	"hdr/visual.h"
+	<string.h>
+
+1522361339 c:\users\alan\c code\projeto ed2\hdr\tree.h
+	<stdlib.h>
+	"tools.h"
+	"visual.h"
+
+1522359623 c:\users\alan\c code\projeto ed2\hdr\tools.h
+	<string.h>
+	"../src/struct.c"
+
+1522354803 c:\users\alan\c code\projeto ed2\src\struct.c
+
+1522354532 c:\users\alan\c code\projeto ed2\hdr\visual.h
+	<stdio.h>
+	"tools.h"
+
+1522354803 source:c:\users\alan\c code\projeto ed2\src\struct.c
+
+1522359803 source:c:\users\alan\c code\projeto ed2\src\tools.c
+	"../hdr/tools.h"
+
+1522361144 source:c:\users\alan\c code\projeto ed2\src\tree.c
+	"../hdr/tree.h"
+
+1522360996 source:c:\users\alan\c code\projeto ed2\src\visual.c
+	"../hdr/visual.h"
+
+1522361192 source:c:\users\alan\c code\projeto ed2\src\control.c
+	"../hdr/control.h"
+
+1522353647 c:\users\alan\c code\projeto ed2\hdr\control.h
+	"tree.h"
 

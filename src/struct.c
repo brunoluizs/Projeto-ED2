@@ -6,20 +6,20 @@ struct Data
     int dia;
     int mes;
     int ano;
+    int hora;
 };
 
-struct Evento
+typedef struct Evento
 {
     char assunto[20];
     char local[20];
     struct Data dataEvento;
-    int horario;
-};
+}tp_Evento;
 
 typedef struct node_Arvore
 {
     short int visivel;
     struct Evento info;
-    struct node_Arvore *node_Esq;
-    struct node_Arvore *node_Dir;
+    struct node_Arvore *esq;
+    struct node_Arvore *dir;
 }node_Arvore;

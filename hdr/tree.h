@@ -1,19 +1,25 @@
-#ifndef _TREE_H_
-#define _TREE_H_
+#ifndef TREE_H
+#define TREE_H
 
-#include "../src/struct.c"
 #include <stdlib.h>
 
-int Arvore_vazia(node_Arvore *raiz);
+#include "tools.h"
+#include "visual.h"
 
-node_Arvore *inicializar_Arvore();
+node_Arvore *alocar_node();
 
 void liberar_node(node_Arvore *node);
 
-void liberar_Arvore(node_Arvore *raiz);
+void encerrar_Arvore(node_Arvore **raiz);
 
-void inserir_node(node_Arvore *node);
+void inserir_node(node_Arvore **raiz, tp_Evento info);
 
+void listar_Arvore(node_Arvore *node);
 
+int abracadabra(node_Arvore *raiz, struct Data data);
 
-#endif // _TREE_H_
+node_Arvore *busca_evento(node_Arvore *raiz, tp_Evento evento);
+
+void busca_evento_data(node_Arvore *raiz, struct Data data);
+
+#endif // TREE_H

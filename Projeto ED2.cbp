@@ -31,14 +31,26 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="hdr/control.h" />
+		<Unit filename="hdr/tools.h" />
 		<Unit filename="hdr/tree.h" />
+		<Unit filename="hdr/visual.h" />
 		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/control.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src/struct.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="src/tools.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="src/tree.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/visual.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
