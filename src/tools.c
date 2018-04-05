@@ -11,10 +11,28 @@ void erro(int cod)
             printf("\nE04: Evento nao encontrado!\n");
             break;
 
+        case 5:
+            printf("Nao foi possivel estabelecer a conexao.");
+            break;
+
     }
 
     system("pause");
 }
+
+void info(int cod){
+
+    switch(cod){
+        case 1:
+            printf("Conexao estabelecida com sucesso!\n");
+            break;
+        case 2:
+            printf("Estabelecendo conexao...\n");
+            break;
+
+    }
+}
+
 
 int comparar_datas(struct Data input_A, struct Data input_B) /* -1: A < B / 0: A = B / 1: A > B / 2: Erro */
 {

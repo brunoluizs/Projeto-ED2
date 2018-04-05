@@ -9,6 +9,7 @@
 #include "../src/struct.c"
 
 void erro(int cod);
+void info(int cod);
 
 int comparar_datas(struct Data input_A, struct Data input_B);
 

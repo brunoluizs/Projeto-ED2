@@ -71,3 +71,50 @@
 1522353647 c:\users\alan\c code\projeto ed2\hdr\control.h
 	"tree.h"
 
+1522849819 source:c:\users\gustavo colombelli\desktop\projeto-ed2-master\main.c
+	"hdr/control.h"
+	<string.h>
+
+1522361415 c:\users\gustavo colombelli\desktop\projeto-ed2-master\hdr\control.h
+	"tree.h"
+
+1522361415 c:\users\gustavo colombelli\desktop\projeto-ed2-master\hdr\tree.h
+	<stdlib.h>
+	"tools.h"
+	"visual.h"
+
+1522848908 c:\users\gustavo colombelli\desktop\projeto-ed2-master\hdr\tools.h
+	<string.h>
+	"../src/struct.c"
+
+1522361415 c:\users\gustavo colombelli\desktop\projeto-ed2-master\src\struct.c
+
+1522361415 c:\users\gustavo colombelli\desktop\projeto-ed2-master\hdr\visual.h
+	<stdio.h>
+	"tools.h"
+
+1522361415 source:c:\users\gustavo colombelli\desktop\projeto-ed2-master\src\control.c
+	"../hdr/control.h"
+
+1522361415 source:c:\users\gustavo colombelli\desktop\projeto-ed2-master\src\struct.c
+
+1522849067 source:c:\users\gustavo colombelli\desktop\projeto-ed2-master\src\tools.c
+	"../hdr/tools.h"
+
+1522361415 source:c:\users\gustavo colombelli\desktop\projeto-ed2-master\src\tree.c
+	"../hdr/tree.h"
+
+1522361415 source:c:\users\gustavo colombelli\desktop\projeto-ed2-master\src\visual.c
+	"../hdr/visual.h"
+
+1522866339 source:c:\users\gustavo colombelli\desktop\projeto-ed2-master\src\conexao.c
+	"../hdr/conexao.h"
+
+1522862086 c:\users\gustavo colombelli\desktop\projeto-ed2-master\hdr\conexao.h
+	<stdio.h>
+	<windows.h>
+	<winsock2.h>
+	<mysql.h>
+	"tools.h"
+	<stdlib.h>
+

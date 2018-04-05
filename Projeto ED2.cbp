@@ -31,11 +31,15 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="hdr/conexao.h" />
 		<Unit filename="hdr/control.h" />
 		<Unit filename="hdr/tools.h" />
 		<Unit filename="hdr/tree.h" />
 		<Unit filename="hdr/visual.h" />
 		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/conexao.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src/control.c">
